@@ -1,0 +1,30 @@
+.static > div:hover{
+opacity:1;
+transform:translatey(-30px);
+}
+header .navbar a:hover{
+background-color:#fff;
+color:pink;
+border-bottom:2px solid #00ffff;
+	transition:all 4s ease;
+}
+.port img:hover{
+box-shadow:1px 1px 12px pink;
+	cursor: pointer;
+	transition:all 2s ease;
+}
+button:hover{
+color:#fff;
+cursor: pointer;
+	transition:all 2s ease;
+}
+.footer a:hover{
+opacity:1;
+	cursor: pointer;
+	transition:all 2s ease;
+}
+.footer i:hover{
+opacity:1;
+cursor: pointer;
+	transition:all 2s ease;
+}

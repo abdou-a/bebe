@@ -1,0 +1,49 @@
+@media (max-width : 850px) {
+	header nav{
+		height: 400px;
+	}
+	header nav .navbar {
+		display: flex;
+		justify-content: center;
+	}
+	header nav .navbar ul{
+		display: flex;
+		flex-direction: column;
+
+		flex-wrap: wrap;
+	}
+	header nav .navbar ul li{
+		width: 100%;
+	}
+	header nav .navbar ul .last{
+		position: static;
+		margin-top: 70px;
+		margin-bottom: 0px;
+		border:none;
+	}
+	header .slide{
+		display: none;
+	}
+	.port{
+		margin-top: -150px;
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		align-items: center;
+	}
+	.port > div{
+		width: 80%;
+		margin-bottom: 20px;
+	}
+	.contact {
+		height: 750px;
+	}
+	.contact fieldset{
+		display: flex;
+		flex-direction: column;
+	}
+	.contact textarea {
+		width: 100%;
+		margin-left: 30px;
+	}
+}
